@@ -1,0 +1,65 @@
+.store-owner-dashboard {
+    max-width: 700px;
+    margin: 60px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #141414;
+    box-shadow: 0 0 20px rgba(229, 9, 20, 0.2);
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #fff;
+  }
+  
+  .store-owner-dashboard h3 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    color: #e50914;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+  }
+  
+  .store-owner-dashboard p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 20px;
+  }
+  
+  .store-owner-dashboard ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .store-owner-dashboard li {
+    padding: 15px;
+    border-bottom: 1px solid #333;
+    font-size: 16px;
+    color: #eee;
+    transition: background-color 0.3s ease;
+  }
+  
+  .store-owner-dashboard li:last-child {
+    border-bottom: none;
+  }
+  
+  .store-owner-dashboard li:hover {
+    background-color: #1f1f1f;
+  }
+  
+  .store-owner-dashboard li p {
+    margin: 0;
+  }
+  
+  .store-owner-dashboard .error {
+    color: #ff4c4c;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .store-owner-dashboard .loading {
+    text-align: center;
+    font-size: 16px;
+    color: #aaa;
+  }
+  

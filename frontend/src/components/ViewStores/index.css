@@ -1,0 +1,101 @@
+.view-stores-container {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #141414;
+    box-shadow: 0 0 20px rgba(229, 9, 20, 0.15);
+    color: #fff;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  .view-stores-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    color: #e50914;
+    border-bottom: 1px solid #333;
+    padding-bottom: 10px;
+  }
+  
+  .view-stores-container .filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 25px;
+  }
+  
+  .view-stores-container .filters input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #444;
+    background-color: #1c1c1c;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .view-stores-container .filters input:focus {
+    outline: none;
+    border-color: #e50914;
+    box-shadow: 0 0 5px rgba(229, 9, 20, 0.5);
+  }
+  
+  .view-stores-container .filters button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: none;
+    background-color: #e50914;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-stores-container .filters button:hover {
+    background-color: #b00610;
+  }
+  
+  .view-stores-container ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .view-stores-container li {
+    padding: 20px;
+    border-bottom: 1px solid #333;
+    font-size: 16px;
+    color: #eee;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-stores-container li:hover {
+    background-color: #1f1f1f;
+  }
+  
+  .view-stores-container li:last-child {
+    border-bottom: none;
+  }
+  
+  .view-stores-container li h3 {
+    margin: 0;
+    color: #e50914;
+  }
+  
+  .view-stores-container li p {
+    margin: 5px 0;
+    color: #ccc;
+  }
+  
+  .view-stores-container p {
+    text-align: center;
+    font-size: 16px;
+    color: #ccc;
+    margin-top: 20px;
+  }
+  
+  .view-stores-container p.error {
+    color: #ff4c4c;
+  }
+  
